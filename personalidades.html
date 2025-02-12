@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalidades</title> 
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        img {
+            width: 100%;
+            max-width: 300px;
+            transition: transform 0.3s ease-in-out;
+            border-radius: 8px;
+        }
+        img:hover {
+            transform: scale(1.2);
+            border: solid 2px pink;
+            cursor: pointer;
+        }
+        p {
+            text-align: justify;
+            color: #555;
+            font-size: 18px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <main class="container">
+        <h1 aria-label="Lista de Personalidades da Tecnologia">PERSONALIDADES</h1>
+
+        <section>
+            <h2>Bill Gates</h2>
+            <img src="imagens/bill-gates.jpg" alt="Foto de Bill Gates, empresário e filantropo" loading="lazy">
+            <p>Bill Gates é um empresário e filantropo, cofundador da Microsoft e um dos pioneiros da revolução dos computadores pessoais.</p>
+        </section>
+
+        <section>
+            <h2>Steve Jobs</h2>
+            <img src="imagens/steve-jobs.jpg" alt="Foto de Steve Jobs, visionário da tecnologia" loading="lazy">
+            <p>Steve Jobs foi um visionário da tecnologia, cofundador da Apple e responsável por inovações como o iPhone e o Mac.</p>
+        </section>
+
+        <section>
+            <h2>Linus Torvalds</h2>
+            <img src="imagens/linus-torvalds.jpg" alt="Foto de Linus Torvalds, criador do Linux" loading="lazy">
+            <p>Linus Torvalds é o criador do Linux, um dos sistemas operacionais mais utilizados no mundo, principalmente em servidores.</p>
+        </section>
+    </main>
+</body>
+</html>
